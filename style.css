@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #ececec;
+}
+h1 { 
+  font-size: 30px;
+  text-align: center;
+  
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+/* a :focus {
+  color: green;
+} */
+.container {
+
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin: 20px;
+    margin-left: 150px;
+    padding: 25px;
+    width: 250px;
+    display:inline-block ;
+    text-align: center;
+    overflow: hidden;
+    animation-name: example;
+    animation-duration: 4s;
+
+} 
+/* เมื่อนำภาพเข้ามาต้อง ขนาด กว้าง 300 สูง 100 */
+.images {
+  width: 300px;
+  height: 100px;
+}
+
+
+/* CSS */
+.button-1 {
+  background-color: #fa07fa;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-1:hover,
+.button-1:focus {
+  background-color: #c227ffd8;
+}
+
+
+/* footer แนบชื่อ */
+footer {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: #fff;
+  background-color: blue;
+  padding:10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%; /* ให้กว้างเต็มหน้าจอ */
+  left: 0;
+}
+
+
+@keyframes example {
+  from {opacity: 0;}
+  to {opacity: 100;}
+}

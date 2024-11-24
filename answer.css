@@ -1,0 +1,155 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+ 
+}
+
+
+.game-container {
+  background: #fff;
+  padding: 50px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  margin-top: 50px;
+}
+.question {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.question p {
+  color: red;
+}
+.input-box {
+  font-size: 20px;
+  padding: 5px;
+  width: 200px;
+  text-align: center;
+}
+.btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #45a049;
+}
+.score {
+  background-color: rgb(190, 183, 183);
+  border-radius: 8px;
+  margin-top: 20px;
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+  padding: 15px;
+  width: 20%;
+  height: 10px;
+  font-size: 18px;
+  color: red;
+}
+
+.imagegif {
+  width: 100px;
+  height: 100px;
+  top: 89px;
+  right: 450px;
+  position: absolute;
+  align-items: center;
+ 
+  
+}
+
+.btn-answer {
+   
+    background-color: #e84a5f;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    outline: none;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    justify-content: center;
+    touch-action: manipulation;
+    margin-top: 100px;
+ }
+  
+.btn-answer:hover,
+.btn-answer:focus {
+  background-color: #ff847c;
+  }
+  
+
+
+
+#download-btn {
+  
+
+ display: none;
+
+  
+
+  
+}
+
+
+/* ส่วนแสดงข้อความเมื่อส่งคำถาม */
+.incorrect-answer {
+
+  color: red; /* แสดงข้อความผิดด้วยสีแดง */
+  font-weight: bold; /* ทำให้ข้อความหนา */
+  font-size: 18px; /* ปรับขนาดฟอนต์ */
+  margin-top: 10px; /* เพิ่มช่องว่างด้านบน */
+}
+
+
+.correct-answer {
+
+  color: rgb(81, 255, 0); /* แสดงข้อความผิดด้วยสีแดง */
+  font-weight: bold; /* ทำให้ข้อความหนา */
+  font-size: 18px; /* ปรับขนาดฟอนต์ */
+  margin-top: 10px; /* เพิ่มช่องว่างด้านบน */
+}
+
+.no-answer {
+  color: rgb(200, 6, 248); 
+  font-weight: bold; 
+  font-size: 18px; 
+  margin-top: 10px; 
+}
+
+/* .pdf-img {
+  height: 100px;
+  width: 100px;
+  
+  justify-content: center;
+ 
+
+} */
