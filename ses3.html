@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ข้อสอบอนุกรมชุดที่3</title>
+
+  <link rel="stylesheet" href="answer.css">
+
+</head>
+
+<body>
+  <div class="game-container">
+    <div class="question" id="question"></div>
+    <input type="number" id="answer" class="input-box" placeholder="?" />
+  </div>
+
+  <button class="btn" onclick="checkAnswer()">Submit</button>
+
+
+  <img class="imagegif" src="https://media.tenor.com/-unmMc78vT4AAAAi/white-cat.gif" alt="">
+  <div class="score" id="score">Score: 0</div>
+
+
+
+
+
+  <div class="container">
+
+
+    <button class="btn-answer" id="download-btn" onclick="downloadPDF()">ตรวจคำตอบพร้อมเฉลย</button>
+  </div>
+
+  <!-- ส่วนหลังจบเกม -->
+  <div id="result"></div>
+
+
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="question3.js"></script>
+</body>
+
+</html>
